@@ -47,7 +47,7 @@ class eorder:
     def update_tax(cls, new_tax):
         cls.tax_percentage = new_tax
         logging.info("New tax percentage updated: %d%%", cls.tax_percentage)
-# Example usage of eorder class
+
 
 # Create orders
 order1 = eorder(

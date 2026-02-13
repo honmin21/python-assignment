@@ -40,7 +40,7 @@ class examsystem:
     def update_passmarks(cls, new_passmarks):
         cls.pass_marks = new_passmarks
         logging.info("Updated pass marks: %d", cls.pass_marks)
-# Example usage of examsystem
+
 
 # Create exam records for students
 student1 = examsystem(student_rollno=101, student_name="Alice", marks=25)
