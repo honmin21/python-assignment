@@ -58,7 +58,7 @@ class rticket:
             "Updated base fare: %d",
             cls.base_fare
         )
-# Example usage of rticket class
+
 
 # Create ticket objects
 ticket1 = rticket(ticket_id=1001, passenger_name="srihita", distance=120)
